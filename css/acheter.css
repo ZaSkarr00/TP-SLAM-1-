@@ -1,0 +1,22 @@
+body{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin: auto;
+    padding: 32px;
+}
+a{
+    color:  #007bff;
+    font-style: italic;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
