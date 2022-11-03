@@ -10,13 +10,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Acheter</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="acheter.css">
     </head>
     <body>
+        <div>
         <nav>
+        <a id="haut"></a>
         <h1>LEGO WebStore</h1>
         <hr>
         <ul>
@@ -25,29 +27,38 @@
         </ul>
         <hr>
         <h2>Acheter des LEGO</h2>
-        <p>Remplissez le formulaire ci-dessous pour commander des LEGO !</p>
+        <p>Remplissez le formulaire ci-dessous pour commander des <a href="">LEGO</a>!</p>
         <form>
+            <h3>Informations personnelles</h3>
+            <p>Civilité:</p>
+            <input type="radio" name="M."/> M. <br/><input type="radio" name="Mme"/> Mme <br/>
             <p> Prénom <input name="prénom" type="text"/> </p>
             <p> Nom <input name="nom" type="text"/> </p>
-            
-          </form>
+            <p> e-mail <input name="e-mail" type="text"/> </p>
+            <h3>Informations de livraison</h3>
+            <p>Quantité commandée</p>
+            <select name="pays">
+                <option value="1 boite">1 boite</option>
+                <option value="2 boites">2 boites</option>
+                <option value="3 boites">3 boites</option>
+                <option value="4 boites">4 boites</option>
+                <option value="5 boites">5 boites</option>
+            </select>
+            <p>Adresse de livraison</p>
+            <textarea name="resume" rows="2" cols="20"></textarea>
+            <br>
+            <br>
+            <input type="checkbox" name="Confitmation"/> J'ai relu ma commande et vertifie que ces informations sont correctes <br/>
+            <br>
+            <input type="submit" value="Confirmer la commande" />
+            <hr>
+            <br>
+            <a href="#haut">Retour au haut de page</a>
+            <p>TP1 : Découverte de HTML et CSS</p>
+            <p>L2 Développement Web - 2018</p>
+        </form>
     </body>
 </html>
-Informations personnelles
-Civilité: M. Mme.
-Nom:
-Prénom:
-Mail:
-
-Informations de livraison
-Quantité commandée: 1 boîte 2 boîtes 3 boîtes 4 boîtes 5 boîtes
-Adresse de livraison:
-
-Confirmation
-J'ai relu ma commande et certifie que ces informations sont correctes.
-
-Retour en haut de page
-TP1 : Découverte de HTML et CSS
-L2 Développement Web - 2018
+</div>
 </nav>
 </html>
