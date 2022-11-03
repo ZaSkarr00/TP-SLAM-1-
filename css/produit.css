@@ -1,5 +1,31 @@
 body{
-    width: 900px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
+    background-color: gray;
+
+}
+div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin: auto;
+    padding: 32px;
+}
+h1{
+    text-align: center;
+
+}
+table, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+a{
+    font-style: italic;
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
